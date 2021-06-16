@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <link rel="stylesheet"  href="css/normalize.css">
+    <link rel="stylesheet"  href="css/main.css">
+    <link rel="stylesheet"  href="css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap">
+    <title>Document</title>
+</head>
+<body>
+    <!-- start setting box -->
+    <div class="setting-box">
+        <div class="toggle-setting"> <!--div fot the gear -->
+        <i class="fa fa-gear"></i>
+       </div>
+        <div class="setting-container">
+            <div class="option-box">
+                <h4>colors</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color="rgb(160, 26, 48)"></li>
+                    <li data-color="rgb(219, 58, 85)"></li>
+                    <li data-color="rgb(136, 43, 58)"></li>
+                    <li data-color="rgb(216, 79, 45)"></li>
+                    <li data-color="rgb(224, 174, 108)"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>Random Backgrounds</h4>
+                <div class="random-background">
+                  <span class="yes active" data-background="yes">Yes</span>
+                  <span class="no" data-background="no">No</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>Show Bullets</h4>
+                <div class="bullets-option">
+                  <span class="yes active" data-display="show">Yes</span>
+                  <span class="no" data-display="hide">No</span>
+                </div>
+            </div>
+            <button class="reset-option">Reset Option</button>
+        </div>
+    </div>
+    <!-- end setting box -->
+
+    <!-- start nav bullets -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".about-us">
+            <div class="tooltip">About Us</div>
+        </div>
+        <div class="bullet"data-section=".brand">
+            <div class="tooltip">Our Brand</div>
+        </div>
+        <div class="bullet"data-section=".gallery">
+            <div class="tooltip">Our Gallery</div>
+        </div>
+        <div class="bullet"data-section=".features">
+            <div class="tooltip">Our Features</div>
+        </div>
+    </div>
+    <!-- end nav bullets -->
+
+   <!-- start landing page -->
+   <div class="landing-page">
+       <div class="overlay"></div>
+       <div class="container">
+        <div class="header">
+            <div class="logo">Special Design</div>
+            <div class="links-container">
+                <ul class="links">
+                    <li><a href="#" data-section=".about-us">About</a></li>
+                    <li><a href="#" data-section=".brand" > Brand</a></li>
+                    <li><a href="#" data-section=".gallery">Gallery</a></li>
+                    <li><a href="#" data-section=".timeline">Timeline</a></li>
+                    <li><a href="#" data-section=".features">Features</a></li>
+                  </ul>
+                  <button class="toggle-menu">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                  </button>
+            </div>
+        </div>
+       </div>
+       <div class="introduction-text">
+          <h1>We Are <span>Creative</span> Brand</h1> 
+          <p>Fashion can also simply mean our lifestyle: the clothing and accessories that we wear and the cosmetics that we apply.</p>
+       </div>
+   </div>
+   <!-- End landing page -->
+   <!-- start about us -->
+   <div class="container">
+    <div class="about-us">
+        <div class="info-box">
+            <h2>About Us</h2>
+            <p>Our vision is to change the way that brands function. We believe that business can be healing, not built solely on numbers and spreadsheets By valuing curiosity, connection, ownership, and self-discovery.</p>
+        </div>
+        <div class="image-box">
+            <img src="imags/about-us.png" alt="">
+        </div>
+    </div>
+   </div>
+   <!-- end about us -->
+
+   <!-- start our brand -->
+   <div class="brand">
+       <div class="container">
+           <h2>Our brand</h2>
+           <div class="brand-box">
+               <div class="brand-name">Clothes</div>
+               <div class="brand-progress">
+                   <span data-progress="90%"></span>
+               </div>
+           </div>
+           <div class="brand-box">
+            <div class="brand-name">Dresses</div>
+            <div class="brand-progress">
+                <span data-progress="50%"></span>
+            </div>
+        </div>
+        <div class="brand-box">
+            <div class="brand-name">Accessories</div>
+            <div class="brand-progress">
+                <span data-progress="30%"></span>
+            </div>
+        </div>
+        <div class="brand-box">
+            <div class="brand-name">pants</div>
+            <div class="brand-progress">
+                <span data-progress="50%"></span>
+            </div>
+        </div>
+       </div>
+   </div>
+   <!-- end our skills -->
+
+   <!-- start gallery -->
+   <div class="gallery">
+       <div class="container">
+           <h2>Our Gallery</h2>
+           <div class="image-box">
+               <img src="imags/gallery2.jpg" alt="one">
+               <img src="imags/gallery4.jpg" alt="two">
+               <img src="imags/gallery5.jpg" alt="three">
+               <img src="imags/gallery8.jpg" alt="four">
+               <img src="imags/gallery7.jpg" alt="five">
+               <img src="imags/gallery3.jpg" alt="">
+               <img src="imags/gallery1.jpg" alt="">
+               <img src="imags/gallery6.jpg" alt="">
+               <img src="imags/gallery9.jpg" alt="">
+               <img src="imags/gallery11.jpg" alt="">
+           </div>
+       </div>
+   </div>
+   <!-- end gallery -->
+
+   <!-- start timeline-->
+   <div class="timeline">
+       <div class="container">
+           <div class="timeline-content">
+            <div class="year">2020</div>
+            <div class="left">
+                <div class="content">
+                    <h3>Fashion</h3>
+                    <p>Our vision is to change the way that brands function. We believe that business can be healing, not built solely on numbers and spreadsheets By valuing curiosity, connection, ownership, and self-discovery.</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="right">
+                <div class="content">
+                    <h3>Stylish</h3>
+                    <p>Our vision is to change the way that brands function. We believe that business can be healing, not built solely on numbers and spreadsheets By valuing curiosity, connection, ownership, and self-discovery.</p>
+                </div>
+            </div>
+           </div>
+       </div>
+   </div>
+   <!-- end timeline-->
+
+   <!-- start features -->
+   <div class="features">
+       <h3>Our Features</h3>
+      <div class="container">
+          <div class="feat-box">
+              <img src="imags/icon2.png" alt="">
+              <h4>Classic</h4>
+              <p>Fashion is a popular aesthetic expression. </p>
+          </div>
+          <div class="feat-box">
+            <img src="imags/icon1.png" alt="">
+            <h4>Shoses</h4>
+            <p>Fashion is a popular aesthetic expression. </p>
+        </div>
+        <div class="feat-box">
+            <img src="imags/icon5.png" alt="">
+            <h4>Dresses</h4>
+            <p>Fashion is a popular aesthetic expression. </p>
+        </div>
+        <div class="feat-box">
+            <img src="imags/icon6.jpg" alt="">
+            <h4>Shirts</h4>
+            <p>Fashion is a popular aesthetic expression. </p>
+        </div>
+        <div class="feat-box">
+            <img src="imags/icon4.png" alt="">
+            <h4>Necklace</h4>
+            <p>Fashion is a popular aesthetic expression. </p>
+        </div>
+        <div class="feat-box">
+            <img src="imags/icon3.jpg" alt="">
+            <h4>Bags</h4>
+            <p>Fashion is a popular aesthetic expression. </p>
+        </div>
+        <div class="clearfix"></div>
+      </div> 
+   </div>
+   <!-- end features -->
+
+   <!--start testimonials -->
+   <div class="testimonials">
+       <div class="container">
+        <h2>Testimonials</h2>
+           <div class="test-box">
+              <p>Thank you for the good sales support and being part of the effort to make the world more humane & sustainable.</p>
+              <div class="personal-info">
+                  <img src="imags/people1.png" alt="">
+                  <h4>Nour Ahmed</h4>
+                  <p>Roby Fashion Brand</p>
+              </div>
+           </div>
+           <div class="test-box">
+              <p>It was a pleasure meeting you, I've been getting good wear out of the shirt. It's very light and comfortable to wear.</p>
+              <div class="personal-info">
+                <img src="imags/people2.jpg" alt="">
+                <h4>Reem Mohmed</h4>
+                <p>Roby Fashion Brand</p>
+              </div>
+           </div>
+           <div class="test-box">
+              <p>I LOVE THE SHIRTS, they are probably the best dress/casual shirts I have ever had. I'll be buying all the colors</p>
+              <div class="personal-info">
+                <img src="imags/people3.png" alt="">
+                <h4>Sarah Fwazy</h4>
+                <p>Roby Fashion Brand</p>
+              </div>
+           </div>
+       </div>
+       <div class="clear-fix"></div>
+   </div>
+   <!--end testimonials -->
+   <!-- start contact us -->
+   <div class="contact">
+       <div class="overlay"></div>
+       <div class="container">
+           <h2>Contact Us</h2>
+           <form action="">
+               <div class="left">
+                   <input type="text" placeholder="Your Name" name="username">
+                   <input type="text" placeholder="Your Number" name="phone">
+                   <input type="email" placeholder="Your Email" name="email">
+                   <input type="text" placeholder="Subject" name="subject">
+               </div>
+               <div class="right">
+                   <textarea name="message" placeholder="Your Message" ></textarea>
+                   <input class="button" type="submit" value="Contact">
+               </div>
+           </form>
+       </div>
+   </div>
+   <!-- end contact us -->
+
+   <!-- start footer -->
+   <div class="footer">
+       <div class="container">
+           <div class="copy">Copy Right &copy; Roby Brand</div>
+           <div class="icons">
+            <ul>
+                <li><img src="imags/face.webp" alt="face"></li>
+                <li><img src="imags/twitter.webp" alt="twitter"></li>
+                <li><img src="imags/instgram.webp" alt="instgram"></li>
+                <li><img src="imags/linked.webp" alt="linked"></li> 
+               </ul>
+           </div>
+       </div>
+   </div>
+   <!-- end footer -->
+
+<script src="main.js"></script>    
+</body>
+</html>
